@@ -1,17 +1,16 @@
-import {Divider, Text} from '@nextui-org/react';
+import {Text} from '@nextui-org/react';
 import React from 'react';
-import {AcmeLogo} from '../navbar/logo';
 import {Box} from '../styles/box';
 import {Flex} from '../styles/flex';
 
 export const Footer = () => {
    return (
-      // <Flex
-      //    css={{
-      //       py: '$20',
-      //       px: '$6',
-      //    }}
-      // >
+      <Flex
+         css={{
+            py: '$20',
+            px: '$6',
+         }}
+      >
          <Box as={'footer'} css={{width: '100%'}}>
             <Box
                css={{
@@ -29,7 +28,7 @@ export const Footer = () => {
                {/*   }}*/}
                {/*/>*/}
                <Flex
-                  //   justify={'between'}
+                  justify={'between'}
                   align={'center'}
                   wrap={'wrap'}
                   css={{
@@ -54,6 +53,6 @@ export const Footer = () => {
                </Flex>
             </Box>
          </Box>
-      // </Flex>
+      </Flex>
    );
 };

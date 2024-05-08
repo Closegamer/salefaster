@@ -48,7 +48,7 @@ export const Products = () => {
                                 ₽156,73{' '}
                             </Text>
                             <Text css={{ display: 'contents', color: '$accents8' }}>/рулон</Text>
-                            <Button css={{ mt: '$7', mb: '$12' }}>Уменьшить цену</Button>
+                            {/*<Button css={{ mt: '$7', mb: '$12' }}>Уменьшить цену</Button>*/}
 
                             <Divider />
                             <Box as={'ul'}>
@@ -95,7 +95,7 @@ export const Products = () => {
                                 ₽98,57{' '}
                             </Text>
                             <Text css={{ display: 'contents', color: '$accents8' }}>/рулон</Text>
-                            <Button css={{ mt: '$7', mb: '$12' }}>Уменьшить цену</Button>
+                            {/*<Button css={{ mt: '$7', mb: '$12' }}>Уменьшить цену</Button>*/}
 
                             <Divider />
                             <Box as={'ul'}>
@@ -142,7 +142,7 @@ export const Products = () => {
                                 ₽70,98{' '}
                             </Text>
                             <Text css={{ display: 'contents', color: '$accents8' }}>/рулон</Text>
-                            <Button css={{ mt: '$7', mb: '$12' }}>Уменьшить цену</Button>
+                            {/*<Button css={{ mt: '$7', mb: '$12' }}>Уменьшить цену</Button>*/}
 
                             <Divider />
                             <Box as={'ul'}>
@@ -189,7 +189,7 @@ export const Products = () => {
                                 ₽79,09{' '}
                             </Text>
                             <Text css={{ display: 'contents', color: '$accents8' }}>/рулон</Text>
-                            <Button css={{ mt: '$7', mb: '$12' }}>Уменьшить цену</Button>
+                            {/*<Button css={{ mt: '$7', mb: '$12' }}>Уменьшить цену</Button>*/}
 
                             <Divider />
                             <Box as={'ul'}>
@@ -236,7 +236,7 @@ export const Products = () => {
                                 ₽68,33{' '}
                             </Text>
                             <Text css={{ display: 'contents', color: '$accents8' }}>/рулон</Text>
-                            <Button css={{ mt: '$7', mb: '$12' }}>Уменьшить цену</Button>
+                            {/*<Button css={{ mt: '$7', mb: '$12' }}>Уменьшить цену</Button>*/}
 
                             <Divider />
                             <Box as={'ul'}>
@@ -283,7 +283,7 @@ export const Products = () => {
                                 ₽83,46{' '}
                             </Text>
                             <Text css={{ display: 'contents', color: '$accents8' }}>/рулон</Text>
-                            <Button css={{ mt: '$7', mb: '$12' }}>Уменьшить цену</Button>
+                            {/*<Button css={{ mt: '$7', mb: '$12' }}>Уменьшить цену</Button>*/}
 
                             <Divider />
                             <Box as={'ul'}>
@@ -330,7 +330,7 @@ export const Products = () => {
                                 ₽91,57{' '}
                             </Text>
                             <Text css={{ display: 'contents', color: '$accents8' }}>/рулон</Text>
-                            <Button css={{ mt: '$7', mb: '$12' }}>Уменьшить цену</Button>
+                            {/*<Button css={{ mt: '$7', mb: '$12' }}>Уменьшить цену</Button>*/}
 
                             <Divider />
                             <Box as={'ul'}>
@@ -377,7 +377,7 @@ export const Products = () => {
                                 ₽71,29{' '}
                             </Text>
                             <Text css={{ display: 'contents', color: '$accents8' }}>/рулон</Text>
-                            <Button css={{ mt: '$7', mb: '$12' }}>Уменьшить цену</Button>
+                            {/*<Button css={{ mt: '$7', mb: '$12' }}>Уменьшить цену</Button>*/}
 
                             <Divider />
                             <Box as={'ul'}>

@@ -1,8 +1,7 @@
-import {Divider, Grid, Text} from '@nextui-org/react';
+import {Divider, Text} from '@nextui-org/react';
 import React from 'react';
 import {BoxIcon} from '../icons/BoxIcon';
-import {FeatureIcon} from '../icons/FeatureIcon';
-import {Box} from '../styles/box';
+import Link from 'next/link'
 import {Flex} from '../styles/flex';
 
 export const Contacts = () => {
@@ -59,7 +58,9 @@ export const Contacts = () => {
                                     color: '$accents8',
                                 }}
                             >
-                                +7 903 XXX XX XX,
+                                <Link
+                                    href={'tel:79104223605'}>+7 910 422 3605
+                                </Link>
                             </Text>
                         </Flex>
                     </Flex>
@@ -81,7 +82,9 @@ export const Contacts = () => {
                                     color: '$accents8',
                                 }}
                             >
-                                salefaster@mail.ru
+                                <Link
+                                    href={'mailto:salefaster@mail.ru'}>salefaster@mail.ru
+                                </Link>
                             </Text>
                         </Flex>
                     </Flex>
@@ -103,7 +106,7 @@ export const Contacts = () => {
                                     color: '$accents8',
                                 }}
                             >
-                                Москва, Улица Бабушкина,
+                                141009, Россия, Московская область, город Мытищи, улица Коминтерна, 15 А/2
                             </Text>
                         </Flex>
                     </Flex>

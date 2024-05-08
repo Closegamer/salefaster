@@ -1,4 +1,4 @@
-import {Button, Divider, Input, Text, Image} from '@nextui-org/react';
+import {Divider, Text, Image} from '@nextui-org/react';
 import React from 'react';
 import {CheckIcon} from '../icons/CheckIcon';
 import {Box} from '../styles/box';
@@ -84,7 +84,7 @@ export const Hero = () => {
                   wrap={'wrap'}
                >
                   {/*<Input placeholder="Enter your email address" size="lg" />*/}
-                  <Button>Калькулятор</Button>
+                  {/*<Button>Калькулятор</Button>*/}
                </Flex>
                <Flex
                   wrap={'wrap'}

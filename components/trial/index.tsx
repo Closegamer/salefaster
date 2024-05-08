@@ -14,21 +14,24 @@ export const Trial = () => {
             direction={'column'}
             align={'center'}
          >
-            <Text h3>Коммерческое предожение</Text>
-            <Text
-               span
-               css={{
-                  color: '$accents8',
-                  pb: '$15',
-                  textAlign: 'center',
-               }}
-            >
-               Если у Вас есть к нам предложение по цене, мы готовы его обсудить!
-            </Text>
-
-            <Button>Предложить свою цену</Button>
+             <Flex direction="column">
+                 <Text span css={{color: '$blue600'}}>
+                     Ваша цена
+                 </Text>
+                 <Text h3>Коммерческое предложение</Text>
+                 <Text
+                     span
+                     css={{
+                         color: '$accents8',
+                         pb: '$15',
+                         textAlign: 'center',
+                     }}
+                 >
+                     Если у Вас есть к нам предложение по цене, мы готовы его обсудить!
+                 </Text>
+                 {/*<Button>Предложить свою цену</Button>*/}
+             </Flex>
          </Flex>
-
          <Divider
             css={{position: 'absolute', inset: '0p', left: '0', mt: '$5'}}
          />

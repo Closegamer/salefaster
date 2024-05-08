@@ -1,4 +1,4 @@
-import {Button, Divider, Input, Text} from '@nextui-org/react';
+import {Button, Divider, Input, Text, Image} from '@nextui-org/react';
 import React from 'react';
 import {CheckIcon} from '../icons/CheckIcon';
 import {Box} from '../styles/box';
@@ -130,7 +130,12 @@ export const Hero = () => {
                   },
                }}
             >
-               <img src="thermolabel.jpg" />
+                <Image
+                    width={'auto'}
+                    height={'auto'}
+                    src="thermolabel.jpg"
+                    alt="thematic_image"
+                />
             </Box>
          </Flex>
          <Divider

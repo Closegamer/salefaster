@@ -14,7 +14,7 @@ export const Products = () => {
                 direction={'column'}
                 align={'center'}
             >
-                <Flex direction={'column'} align={'left'}>
+                <Flex direction={'column'}>
                     <Text span css={{ color: '$blue600' }}>
                         Большой ассортимент
                     </Text>

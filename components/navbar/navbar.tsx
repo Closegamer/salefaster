@@ -125,32 +125,33 @@ export const Nav = () => {
          </Navbar.Brand>
 
          <Navbar.Collapse>
-            {collapseItems.map((item, index) => (
-               <Navbar.CollapseItem key={item}>
-                  <Link
-                     color="inherit"
-                     css={{
-                        minWidth: '100%',
-                     }}
-                     href="#"
-                  >
-                     {item}
-                  </Link>
-               </Navbar.CollapseItem>
-            ))}
+            {/*{collapseItems.map((item, index) => (*/}
+            {/*   <Navbar.CollapseItem key={item}>*/}
+            {/*      <Link*/}
+            {/*         color="inherit"*/}
+            {/*         css={{*/}
+            {/*            minWidth: '100%',*/}
+            {/*         }}*/}
+            {/*         href="#"*/}
+            {/*      >*/}
+            {/*         {item}*/}
+            {/*      </Link>*/}
+            {/*   </Navbar.CollapseItem>*/}
+            {/*))}*/}
+            {/*<Navbar.CollapseItem>*/}
+            {/*   <Link*/}
+            {/*      color="inherit"*/}
+            {/*      css={{*/}
+            {/*         minWidth: '100%',*/}
+            {/*      }}*/}
+            {/*      target="_blank"*/}
+            {/*      href="https://github.com/Siumauricio/landing-template-nextui"*/}
+            {/*   >*/}
+            {/*      <GithubIcon />*/}
+            {/*   </Link>*/}
+            {/*</Navbar.CollapseItem>*/}
             <Navbar.CollapseItem>
-               <Link
-                  color="inherit"
-                  css={{
-                     minWidth: '100%',
-                  }}
-                  target="_blank"
-                  href="https://github.com/Siumauricio/landing-template-nextui"
-               >
-                  <GithubIcon />
-               </Link>
-            </Navbar.CollapseItem>
-            <Navbar.CollapseItem>
+               Выбрать тему&nbsp;{' '}
                <Switch
                   checked={isDark}
                   onChange={(e) =>
@@ -160,25 +161,25 @@ export const Nav = () => {
             </Navbar.CollapseItem>
          </Navbar.Collapse>
          <Navbar.Content>
-         {/*   <ModalLogin />*/}
+            {/*<ModalLogin />*/}
 
-         {/*   <Navbar.Item>*/}
-         {/*      <Button auto flat href="#">*/}
-         {/*         Start free trial*/}
-         {/*      </Button>*/}
-         {/*   </Navbar.Item>*/}
-         {/*   <Navbar.Item hideIn={'xs'}>*/}
-         {/*      <Link*/}
-         {/*         color="inherit"*/}
-         {/*         css={{*/}
-         {/*            minWidth: '100%',*/}
-         {/*         }}*/}
-         {/*         target="_blank"*/}
-         {/*         href="https://github.com/Siumauricio/landing-template-nextui"*/}
-         {/*      >*/}
-         {/*         <GithubIcon />*/}
-         {/*      </Link>*/}
-         {/*   </Navbar.Item>*/}
+            {/*<Navbar.Item>*/}
+            {/*   /!*<Button auto flat href="#">*!/*/}
+            {/*   /!*   Start free trial*!/*/}
+            {/*   /!*</Button>*!/*/}
+            {/*</Navbar.Item>*/}
+            {/*<Navbar.Item hideIn={'xs'}>*/}
+            {/*   <Link*/}
+            {/*      color="inherit"*/}
+            {/*      css={{*/}
+            {/*         minWidth: '100%',*/}
+            {/*      }}*/}
+            {/*      target="_blank"*/}
+            {/*      href="https://github.com/Siumauricio/landing-template-nextui"*/}
+            {/*   >*/}
+            {/*      /!*<GithubIcon />*!/*/}
+            {/*   </Link>*/}
+            {/*</Navbar.Item>*/}
             <Navbar.Item hideIn={'xs'}>
                <Switch
                   checked={isDark}

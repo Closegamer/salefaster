@@ -31,7 +31,7 @@ class MyDocument extends Document {
             />
             <Head>{CssBaseline.flush()}</Head>
 
-            <body>
+            <body className={'containerMain'}>
                <Main />
                <NextScript />
             </body>

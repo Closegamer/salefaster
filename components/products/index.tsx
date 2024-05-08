@@ -26,7 +26,7 @@ export const Products = () => {
                     wrap={'wrap'}
                     justify={'center'}
                 >
-                    <Card css={{ p: '$6', mw: '400px' }}>
+                    <Card css={{ p: '$6', mw: '400px', borderWidth: '1px', borderStyle: 'solid', borderColor: 'grey' }}>
                         <Card.Header>
                             <Grid.Container css={{ pl: '$6' }}>
                                 <Grid xs={12}>
@@ -73,7 +73,7 @@ export const Products = () => {
                             </Box>
                         </Card.Body>
                     </Card>
-                    <Card css={{ p: '$6', mw: '400px' }}>
+                    <Card css={{ p: '$6', mw: '400px', borderWidth: '1px', borderStyle: 'solid', borderColor: 'grey' }}>
                         <Card.Header>
                             <Grid.Container css={{ pl: '$6' }}>
                                 <Grid xs={12}>
@@ -120,7 +120,7 @@ export const Products = () => {
                             </Box>
                         </Card.Body>
                     </Card>
-                    <Card css={{ p: '$6', mw: '400px' }}>
+                    <Card css={{ p: '$6', mw: '400px', borderWidth: '1px', borderStyle: 'solid', borderColor: 'grey' }}>
                         <Card.Header>
                             <Grid.Container css={{ pl: '$6' }}>
                                 <Grid xs={12}>
@@ -167,7 +167,7 @@ export const Products = () => {
                             </Box>
                         </Card.Body>
                     </Card>
-                    <Card css={{ p: '$6', mw: '400px' }}>
+                    <Card css={{ p: '$6', mw: '400px', borderWidth: '1px', borderStyle: 'solid', borderColor: 'grey' }}>
                         <Card.Header>
                             <Grid.Container css={{ pl: '$6' }}>
                                 <Grid xs={12}>
@@ -214,7 +214,7 @@ export const Products = () => {
                             </Box>
                         </Card.Body>
                     </Card>
-                    <Card css={{ p: '$6', mw: '400px' }}>
+                    <Card css={{ p: '$6', mw: '400px', borderWidth: '1px', borderStyle: 'solid', borderColor: 'grey' }}>
                         <Card.Header>
                             <Grid.Container css={{ pl: '$6' }}>
                                 <Grid xs={12}>
@@ -261,7 +261,7 @@ export const Products = () => {
                             </Box>
                         </Card.Body>
                     </Card>
-                    <Card css={{ p: '$6', mw: '400px' }}>
+                    <Card css={{ p: '$6', mw: '400px', borderWidth: '1px', borderStyle: 'solid', borderColor: 'grey' }}>
                         <Card.Header>
                             <Grid.Container css={{ pl: '$6' }}>
                                 <Grid xs={12}>
@@ -308,7 +308,7 @@ export const Products = () => {
                             </Box>
                         </Card.Body>
                     </Card>
-                    <Card css={{ p: '$6', mw: '400px' }}>
+                    <Card css={{ p: '$6', mw: '400px', borderWidth: '1px', borderStyle: 'solid', borderColor: 'grey' }}>
                         <Card.Header>
                             <Grid.Container css={{ pl: '$6' }}>
                                 <Grid xs={12}>
@@ -355,7 +355,7 @@ export const Products = () => {
                             </Box>
                         </Card.Body>
                     </Card>
-                    <Card css={{ p: '$6', mw: '400px' }}>
+                    <Card css={{ p: '$6', mw: '400px', borderWidth: '1px', borderStyle: 'solid', borderColor: 'grey' }}>
                         <Card.Header>
                             <Grid.Container css={{ pl: '$6' }}>
                                 <Grid xs={12}>
